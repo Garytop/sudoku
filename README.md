@@ -4,16 +4,19 @@ A multithreaded Sudoku validator and solver
 # build
 
 ```bash
-cd src/validator/ 
-gcc sudoku.cpp -o sudoku-validator
-cd src/solver/
-gcc sudoku-solver.cpp -o sudoku-solver
+git clone https://github.com/Garytop/sudoku.git
+cd sudoku
+make # for complete build and run test 
+make build # just build ELF files 
+make test # just run test(auto build) 
+make clean # clean the build files 
+make help # show the helps 
 ```
 
 # characteristic
 
-you can choose the input method, between bash and file
-and now you can solve a sudoku puzzle as you wish 
+you can change the test examples in the ```benchmark.py``` files
+In the default test, you will see that the efficiency of solving Sudoku is increasing.
 
 # TODO
 
