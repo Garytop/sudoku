@@ -16,6 +16,7 @@ make help # show the helps
 # characteristic
 
 you can change the test examples in the ```benchmark.py``` files
+
 In the default test, you will see that the efficiency of solving Sudoku is increasing.
 
 # TODO
